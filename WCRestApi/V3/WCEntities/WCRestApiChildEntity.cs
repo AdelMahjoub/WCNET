@@ -33,7 +33,7 @@
 
         public async Task<BatchResponse<T>?> Batch<T>(string parentId, BatchRequest<T> req)
         {
-            return await _Batch($"{parentendpoint}/{parentId}/{endpoint}/batch", req);
+            return await _Batch($"{parentendpoint}/{parentId}/{endpoint}", req);
         }
     }
 }

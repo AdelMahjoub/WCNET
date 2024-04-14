@@ -5,10 +5,34 @@
 	  <RootNamespace>WCNET</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>cyberpress.woocommerce-rest-api</PackageId>
+    <Title>.NET Sdk for Woocommerce Rest API</Title>
+    <PackageTags>woocommerce, rest api, sdk</PackageTags>
+    <RepositoryUrl>https://github.com/AdelMahjoub/WCNET</RepositoryUrl>
+    <Description>.net sdk for consuming woocommerce rest api</Description>
+    <Authors>cyberpress</Authors>
+    <Copyright></Copyright>
+    <PackageLicenseFile>MIT-License.txt</PackageLicenseFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="C:\Users\CYBERGEN\Desktop\MIT-License.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
